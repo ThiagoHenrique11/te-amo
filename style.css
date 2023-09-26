@@ -33,6 +33,11 @@
     padding-left: 10px;
 }
 
+.logoperfil a{
+    text-decoration: none;
+    color: white;
+}
+
 .others{
     display: flex;
     padding-left: 1rem;
@@ -42,6 +47,15 @@
 
 .others > h1{
     color: white;
+}
+
+.others a{
+    text-decoration: none;
+    color: white;
+}
+
+.others a:visited{
+    text-decoration: none;
 }
 
 /*-------------------------------------------*/
@@ -81,4 +95,58 @@
 
 .countdown-el span{
     font-size: 1.5rem;
+}
+
+@media (max-width: 760px){
+    .header_container{
+        flex-direction: column;
+    }
+   
+}
+
+
+/*----------------cartinhas----------------------*/
+
+.cards{
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.downs{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.downs a{
+    display: flex;
+    background-color: blue;
+    color: yellow;
+    width: 150px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.card{
+    background-image: url(./beijos.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.titles{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
